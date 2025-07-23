@@ -34,6 +34,7 @@
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
        
             }
 
@@ -76,6 +77,7 @@
            padding-top: 20px;
            min-height: 150px;
            padding-bottom: 30px;
+           margin-right: -15px;
           
        
             
@@ -121,8 +123,8 @@
 
         .retangulo {
 
-            min-width: 320px;
-            max-width: 800px;
+            min-width: 500px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
 
@@ -133,8 +135,6 @@
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
 
-            
-           
 
 
 
@@ -227,7 +227,8 @@
         .final {
 
             background-color: #345C38;
-            box-sizing: border-box;
+            margin-right: -15px;
+
             
            
         
@@ -343,6 +344,7 @@
 
         display: grid;
         place-items: center;
+    
            
         
         }
