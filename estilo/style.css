@@ -38,6 +38,14 @@
             }
 
 
+            .ini a {
+
+
+                padding: 10px;
+                margin-left: 10px;
+            }
+
+
             strong{
 
                 font-weight: bold;  
@@ -291,6 +299,7 @@
             color: var(--cor5);
             background-color: var(--cor1);
             padding: 2px 6px;
+          
 
 
         }
@@ -300,6 +309,7 @@
 
             text-decoration: underline;
             color: var(--cor4);
+            
 
 
         } 
