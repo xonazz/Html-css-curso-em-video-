@@ -34,7 +34,7 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+       
             }
 
 
@@ -167,7 +167,7 @@
 
             width: 90%;
             justify-content: center;
-            margin: auto;
+            margin-left: 50px;
             display: flex;
             
 
@@ -326,4 +326,16 @@
             content: '\00A0\1F517';
 
 
+        } 
+
+        .fotom {
+
+
+        display: grid;
+        place-items: center;
+           
+        
         }
+
+
+    
