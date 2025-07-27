@@ -165,7 +165,7 @@ p {
 }
 
 .final {
-    background-color: #345C38;
+     background-color: #345C38;
     padding: 10px;
     text-align: center;
 } 
@@ -173,6 +173,8 @@ p {
 .final > p {
     margin: 0;
     color: white;
+    display: inline-block;
+    max-width: 100%;
 }
 
 .final a {
@@ -228,10 +230,19 @@ a.externo::after {
 } 
 
 .fotom {
-    display: block;
+     width: 100%;
+    margin: 20px auto;
+    padding: 0;
     text-align: center;
-    margin: 0 auto;
 } 
+
+.fotom img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
 
 .foto2 {
 
