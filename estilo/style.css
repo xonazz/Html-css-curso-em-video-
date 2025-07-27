@@ -231,4 +231,11 @@ a.externo::after {
     display: block;
     text-align: center;
     margin: 0 auto;
+} 
+
+.foto2 {
+
+       display: grid;
+    place-items: center;
+
 }
